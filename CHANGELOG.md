@@ -1,4 +1,11 @@
 # Unitemp changelog
+## Unitemp 1.5
+- Add Cry_dolph_55x52 image (build on latest API) (Thanks jamisonderek)
+## Unitemp 1.4
+- Remove version value from application manifest
+- Small fix (Thanks for JamesDavid)
+## Unitemp 1.3
+- New FZ API satisfaction
 ## Unitemp 1.2
 - New sensor - BME680 (temperature, humidity, pressure)
 - New sensor - MAX31855 (temperature on termocouple)
