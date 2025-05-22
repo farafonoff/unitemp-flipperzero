@@ -57,3 +57,9 @@ UnitempStatus unitemp_SCD30_update(Sensor* sensor);
 bool unitemp_SCD30_free(Sensor* sensor);
 
 #endif
+
+#ifndef BYTE_ORDER
+#define LITTLE_ENDIAN 1234
+#define BIG_ENDIAN    4321
+#define BYTE_ORDER    LITTLE_ENDIAN
+#endif
